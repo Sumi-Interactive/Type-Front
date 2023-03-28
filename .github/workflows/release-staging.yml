@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v1
 
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: sumi-interactive/type-front/type-front
           username: ${{ github.actor }}
